@@ -56,6 +56,7 @@ public class Task01 {
                 process = false;
                 System.out.println("Конец");
             }
+            scanner.close();
         }
     }
 }
