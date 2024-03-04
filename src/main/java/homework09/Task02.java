@@ -10,7 +10,8 @@ public class Task02 {
         int randomNumber = numberOne + (int) (Math.random() * numberTwo);
         boolean result = false;
         int numberOfAttempts = 0;
-        System.out.println("Угадайте загаданное число от 0 до 100: ");
+        int maxAttemps = 10;
+        System.out.println("Угадайте загаданное число от 0 до 100. У вас: " + maxAttemps + " попыток.");
 
         while (result == false) {
             System.out.println("Введите число: ");
